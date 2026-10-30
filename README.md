@@ -2,21 +2,23 @@
 
 ## 최신 릴리즈 패치내용
 
-**v1.5.0 — 게임 1.1.0 / 할로윈 대응 통합판** · 설치기 v1.2.0
+**v1.5.1 — 할로윈·차량 가독성 및 버전 확인 수정판** · 설치기 v1.2.2
 
-- 게임 1.1.0(빌드 26164481)에 맞춰 패치를 갱신했습니다.
-- 할로윈 공지, 보상 종류, 개 외형·해골·호박 관련 문구를 추가 번역했습니다.
-- 악마 처치 임무의 변경된 목표(15마리)와 물리 총기 거치대 설정 문구를 반영했습니다.
+- 할로윈 R1~R5 아래 보상 이름이 겹치는 현상을 수정했습니다.
+- 차량 업그레이드 카드 12장의 글자 크기·밝기·자간·줄바꿈을 개선했습니다. 두 화면 수정은 사용자 게임 테스트로 확인했습니다.
+- GitHub 최신 버전 조회 및 업데이트 다운로드에서 발생한 HTTPS 인증서 오류를 수정했습니다. Windows 인증서 검증을 사용하며 인증서 검증을 끄지 않습니다.
+- 로컬 게임 상태를 확인하지 못해도 GitHub 최신 버전은 조회합니다. 실패 원인을 표시하고 ‘다시 확인’으로 재시도할 수 있습니다.
+- 게임 1.1.0 대응 할로윈 추가 번역과 기존 한글화를 모두 유지합니다.
 - 메뉴·임무·대사·문서·폰트·이미지 한글화와 추가 음성 자막을 EXE 하나에 통합했습니다.
 - PDA·차량 무전 68개, 은신처 관제방송 78개, 맵 관제무전 43개, 모닥불 NPC 3개, 적 전투 음성 720개 등 **총 912개 음성 트랙의 한국어 자막**을 포함합니다.
 - 관제무전은 문장 전체를 줄바꿈하여 표시합니다. 적 자막은 거리 제한 없이 최대 2개를 표시하며, 수류탄 경고를 우선합니다. 음성 자체의 거리 감쇠는 변경하지 않습니다.
 - 같은 설치 프로그램에서 설치·재설치·제거·원본 복구를 할 수 있습니다.
 
-**[통합 설치 EXE 다운로드](https://github.com/zecole-vr/CONVRGENCE-KoreanPatch/releases/download/v1.5.0/CONVRGENCE_Steam_Windows_v1.5.0_Setup_1.2.0.exe)** · [최신 릴리스](https://github.com/zecole-vr/CONVRGENCE-KoreanPatch/releases/latest)
+**[통합 설치 EXE 다운로드](https://github.com/zecole-vr/CONVRGENCE-KoreanPatch/releases/download/v1.5.1/CONVRGENCE_Steam_Windows_v1.5.1_Setup_1.2.2.exe)** · [최신 릴리스](https://github.com/zecole-vr/CONVRGENCE-KoreanPatch/releases/latest)
 
 ## 한글패치 개요
 
-지원 대상은 **CONVRGENCE 1.1.0 / Steam 빌드 26164481 / Steam·PCVR**입니다. Quest 단독 실행판용이 아닙니다. 게임 업데이트로 파일이 바뀌면 새 대응 패치를 기다려 주세요. 일부 포스터의 작은 본문 등에는 원문이 남아 있습니다. 이번 빌드의 새 공지 배치와 자막 표시를 VR 실플레이에서 확인하는 과정은 아직 완료하지 않았습니다.
+지원 대상은 **CONVRGENCE 1.1.0 / Steam 빌드 26164481 / Steam·PCVR**입니다. Quest 단독 실행판용이 아닙니다. 게임 업데이트로 파일이 바뀌면 새 대응 패치를 기다려 주세요. 일부 포스터의 작은 본문 등에는 원문이 남아 있습니다. 전체 게임 구간과 모든 음성 자막을 이번 버전에서 다시 시험한 것은 아닙니다.
 
 Windows 10/11 64비트, .NET Framework 4.8, Microsoft Edge WebView2 Runtime 및 Windows 기본 curl이 필요합니다. Python·자막 플러그인·로더·자막용 .NET 런타임은 EXE에 포함되어 별도 설치할 필요가 없습니다. WebView2가 없다면 [Microsoft 공식 페이지](https://developer.microsoft.com/microsoft-edge/webview2/)에서 설치해 주세요.
 
@@ -28,7 +30,7 @@ Windows 10/11 64비트, .NET Framework 4.8, Microsoft Edge WebView2 Runtime 및 
 
 [제콜 YouTube](https://www.youtube.com/@zecole) · [GitHub 저장소](https://github.com/zecole-vr/CONVRGENCE-KoreanPatch)
 
-게임·상표·게임 자산의 권리는 원권리자에게 있습니다. 나눔고딕 등 포함 구성 요소의 출처와 라이선스 전문, 해당 소스는 설치기 도움말에서 확인할 수 있습니다. 일부 포스터에는 생성형 이미지 편집을 사용했습니다. 자세한 내용은 [구성 요소 고지](https://github.com/zecole-vr/CONVRGENCE-KoreanPatch/releases/download/v1.5.0/THIRD_PARTY_NOTICES.md)를 참고해 주세요.
+게임·상표·게임 자산의 권리는 원권리자에게 있습니다. 나눔고딕 등 포함 구성 요소의 출처와 라이선스 전문, 해당 소스는 설치기 도움말에서 확인할 수 있습니다. 일부 포스터에는 생성형 이미지 편집을 사용했습니다. 자세한 내용은 [구성 요소 고지](https://github.com/zecole-vr/CONVRGENCE-KoreanPatch/releases/download/v1.5.1/THIRD_PARTY_NOTICES.md)를 참고해 주세요.
 
 ## 설치법
 
@@ -37,7 +39,9 @@ Windows 10/11 64비트, .NET Framework 4.8, Microsoft Edge WebView2 Runtime 및 
 3. **한글패치 설치** 버튼을 누릅니다. 게임 경로는 자동으로 찾으며, 찾지 못하거나 여러 경로가 있을 때만 선택합니다. Windows 권한 요청이 나타나면 허용해 주세요.
 4. 완료 후 게임을 실행하고 **인게임 언어를 반드시 ‘한국어’로 선택**합니다.
 
-첫 게임 실행은 자막용 연결 파일 생성으로 평소보다 오래 걸릴 수 있습니다. 설치 중에는 게임 실행·Steam 업데이트·PC 종료를 피해주세요. v1.4.0 사용자는 먼저 Steam 게임을 1.1.0으로 업데이트한 뒤 설치하세요. 이전 게임 원본 백업은 별도 보존하고 새 빌드 원본을 다시 백업합니다. 검증된 자막 실행 환경의 소유 기록만 이어서 사용합니다. 지원하지 않는 버전이나 알 수 없는 파일은 변경하지 않습니다.
+이전 설치기에서 버전 확인이 실패하면 위 링크의 새 EXE를 직접 내려받아 실행하세요.
+
+첫 게임 실행은 자막용 연결 파일 생성으로 평소보다 오래 걸릴 수 있습니다. 설치 중에는 게임 실행·Steam 업데이트·PC 종료를 피해주세요. v1.5.0 사용자는 이 EXE로 바로 업데이트할 수 있습니다. v1.4.0 사용자는 먼저 Steam 게임을 1.1.0으로 업데이트한 뒤 설치하세요. 이전 게임 원본 백업은 별도 보존하고 새 빌드 원본을 다시 백업합니다. 검증된 자막 실행 환경의 소유 기록만 이어서 사용합니다. 지원하지 않는 버전이나 알 수 없는 파일은 변경하지 않습니다.
 
 ## 복구법
 
